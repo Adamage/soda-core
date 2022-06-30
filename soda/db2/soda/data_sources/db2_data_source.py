@@ -7,7 +7,7 @@ from soda.execution.data_source import DataSource
 logger = logging.getLogger(__name__)
 
 
-class Db2Datasource(DataSource):
+class Db2DataSource(DataSource):
     def __init__(self, logs: Logs, data_source_name: str, data_source_properties: dict):
         super().__init__(logs, data_source_name, data_source_properties)
         self.host = data_source_properties.get("host")
