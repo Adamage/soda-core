@@ -1,4 +1,5 @@
 import logging
+
 import ibm_db
 from soda.common.logs import Logs
 from soda.execution.data_source import DataSource
@@ -16,8 +17,10 @@ class Db2Datasource(DataSource):
         self.database = data_source_properties.get("database")
 
     def connect(self):
-        conn_str = f"DATABASE={self.database};HOSTNAME={self.host};PORT={self.port};UID={self.username};PWD={self.password}"
-        self.connection = ibm_db.connect(conn_str, '', '')
+        conn_str = (
+            f"DATABASE={self.database};HOSTNAME={self.host};PORT={self.port};UID={self.username};PWD={self.password}"
+        )
+        self.connection = ibm_db.connect(conn_str, "", "")
 
         return self.connection
 
