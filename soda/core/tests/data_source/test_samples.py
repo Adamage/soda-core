@@ -1,6 +1,6 @@
-from soda.sampler.default_sampler import DefaultSampler
 from helpers.common_test_tables import customers_test_table
 from helpers.data_source_fixture import DataSourceFixture
+from soda.sampler.default_sampler import DefaultSampler
 
 
 def test_missing_count_sample(data_source_fixture: DataSourceFixture):

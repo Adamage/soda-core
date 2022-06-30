@@ -18,8 +18,7 @@ class Db2DataSourceFixture(DataSourceFixture):
             "data_source db2": {
                 "type": "db2",
                 "host": "localhost",
-                "port" "50000"
-                "username": os.getenv("DB2_USERNAME", "db2inst1"),
+                "port" "50000" "username": os.getenv("DB2_USERNAME", "db2inst1"),
                 "password": os.getenv("DB2_PASSWORD", "password"),
                 "database": os.getenv("DB2_DATABASE", "testdb"),
             }

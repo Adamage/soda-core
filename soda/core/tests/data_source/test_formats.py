@@ -1,6 +1,6 @@
-from soda.sodacl.format_cfg import FormatCfg
 from helpers.common_test_tables import customers_test_table
 from helpers.data_source_fixture import DataSourceFixture
+from soda.sodacl.format_cfg import FormatCfg
 
 
 def test_formats(data_source_fixture: DataSourceFixture):

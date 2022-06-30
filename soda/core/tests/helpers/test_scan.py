@@ -5,14 +5,14 @@ import os
 import textwrap
 from textwrap import dedent
 
+from helpers.mock_sampler import MockSampler
+from helpers.mock_soda_cloud import MockSodaCloud, TimeGenerator
 from soda.common.log import LogLevel
 from soda.execution.check import Check
 from soda.execution.check_outcome import CheckOutcome
 from soda.execution.data_source import DataSource
 from soda.sampler.log_sampler import LogSampler
 from soda.scan import Scan
-from helpers.mock_sampler import MockSampler
-from helpers.mock_soda_cloud import MockSodaCloud, TimeGenerator
 
 logger = logging.getLogger(__name__)
 

@@ -4,10 +4,10 @@ import sys
 from logging import Handler, LogRecord
 from textwrap import indent
 
-from soda.common.exception_helper import get_exception_stacktrace
-from soda.common.file_system import file_system
 from helpers.common_test_tables import customers_test_table, orders_test_table
 from helpers.data_source_fixture import DataSourceFixture
+from soda.common.exception_helper import get_exception_stacktrace
+from soda.common.file_system import file_system
 
 
 class Script:

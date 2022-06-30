@@ -1,6 +1,6 @@
-from soda.execution.check_outcome import CheckOutcome
 from helpers.common_test_tables import customers_test_table
 from helpers.data_source_fixture import DataSourceFixture
+from soda.execution.check_outcome import CheckOutcome
 
 
 def test_user_defined_table_expression_metric_check(data_source_fixture: DataSourceFixture):

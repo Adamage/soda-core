@@ -6,14 +6,14 @@ import re
 import textwrap
 from importlib import import_module
 
+from helpers.test_column import TestColumn
+from helpers.test_scan import TestScan
+from helpers.test_table import TestTable
 from soda.common.lazy import Lazy
 from soda.common.random_helper import generate_random_alpha_num_str
 from soda.common.yaml_helper import YamlHelper
 from soda.execution.data_source import DataSource
 from soda.scan import Scan
-from helpers.test_column import TestColumn
-from helpers.test_scan import TestScan
-from helpers.test_table import TestTable
 
 logger = logging.getLogger(__name__)
 

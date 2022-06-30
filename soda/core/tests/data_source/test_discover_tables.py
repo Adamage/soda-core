@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from soda.execution.data_type import DataType
 from helpers.common_test_tables import (
     customers_dist_check_test_table,
     customers_profiling,
@@ -8,6 +7,7 @@ from helpers.common_test_tables import (
     orders_test_table,
 )
 from helpers.data_source_fixture import DataSourceFixture
+from soda.execution.data_type import DataType
 
 
 def test_discover_tables(data_source_fixture: DataSourceFixture):

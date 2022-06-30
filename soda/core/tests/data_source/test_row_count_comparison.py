@@ -1,8 +1,4 @@
-from helpers.common_test_tables import (
-    customers_test_table,
-    raw_customers_test_table,
-)
-
+from helpers.common_test_tables import customers_test_table, raw_customers_test_table
 from helpers.data_source_fixture import DataSourceFixture
 
 

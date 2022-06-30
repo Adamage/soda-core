@@ -2,8 +2,8 @@ from __future__ import annotations
 
 import hashlib
 
-from soda.common.json_helper import JsonHelper
 from helpers.test_column import TestColumn
+from soda.common.json_helper import JsonHelper
 
 
 class TestTable:

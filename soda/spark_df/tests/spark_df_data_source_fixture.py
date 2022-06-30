@@ -2,12 +2,12 @@ import decimal
 import logging
 from datetime import datetime
 
-from pyspark.sql import SparkSession, types
-from soda.execution.data_type import DataType
-from soda.scan import Scan
 from helpers.data_source_fixture import DataSourceFixture
 from helpers.test_scan import TestScan
 from helpers.test_table import TestTable
+from pyspark.sql import SparkSession, types
+from soda.execution.data_type import DataType
+from soda.scan import Scan
 
 logger = logging.getLogger(__name__)
 
