@@ -5,7 +5,7 @@ import os
 import re
 
 import boto3
-from tests.helpers.data_source_fixture import DataSourceFixture
+from helpers.data_source_fixture import DataSourceFixture
 
 logger = logging.getLogger(__name__)
 

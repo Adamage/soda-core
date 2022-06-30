@@ -3,7 +3,7 @@ from __future__ import annotations
 import hashlib
 
 from soda.common.json_helper import JsonHelper
-from tests.helpers.test_column import TestColumn
+from helpers.test_column import TestColumn
 
 
 class TestTable:

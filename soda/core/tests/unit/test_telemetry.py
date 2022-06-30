@@ -6,8 +6,8 @@ from soda.__version__ import SODA_CORE_VERSION
 from soda.telemetry.memory_span_exporter import MemorySpanExporter
 from soda.telemetry.soda_exporter import get_soda_spans
 from soda.telemetry.soda_tracer import soda_trace
-from tests.helpers.fixtures import soda_telemetry
-from tests.helpers.telemetry_helper import telemetry_ensure_no_secrets
+from helpers.fixtures import soda_telemetry
+from helpers.telemetry_helper import telemetry_ensure_no_secrets
 
 telemetry_exporter = MemorySpanExporter.get_instance()
 
