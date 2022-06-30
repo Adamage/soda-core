@@ -13,7 +13,7 @@ package_version = "3.0.1"
 # TODO Add proper description
 description = "Soda Core IBM DB2 Package"
 
-requires = [f"soda-core=={package_version}"]
+requires = [f"soda-core=={package_version}", "ibm-db==3.1.2"]
 # TODO Fix the params
 setup(
     name=package_name,
