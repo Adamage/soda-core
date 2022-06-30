@@ -21,7 +21,6 @@ class Db2DataSource(DataSource):
             f"DATABASE={self.database};HOSTNAME={self.host};PORT={self.port};UID={self.username};PWD={self.password}"
         )
         self.connection = ibm_db.connect(conn_str, "", "")
-
         return self.connection
 
     def validate_configuration(self, logs: Logs) -> None:
