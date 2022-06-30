@@ -8,7 +8,7 @@ from tests.helpers.data_source_fixture import DataSourceFixture
 logger = logging.getLogger(__name__)
 
 
-class PostgresDataSourceFixture(DataSourceFixture):
+class Db2DataSourceFixture(DataSourceFixture):
     def __init__(self, test_data_source: str):
         super().__init__(test_data_source=test_data_source)
         is_local_dev = os.getenv("GITHUB_ACTIONS") is None
